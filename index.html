@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/x-icon" href="https://img.icons8.com/color-glass/32/question-mark.png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css" integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA==" crossorigin="anonymous" referrerpolicy="no-referrer" />    
+    <link rel="stylesheet" href="style.css">
+    <title>Quiz Game - API</title>
+</head>
+
+<body class="body">
+    <div class="wrapper">
+        <h1 class="quiz-title">Quiz Game</h1>
+        <div class="quiz-body">
+            <div class="quiz-score">
+                <h2>
+                    <span id="correct-questions"></span>/<span id="total-questions"></span>
+                </h2>
+            </div>
+            <div class="quiz-question">
+                <h2 class="question" id="question"><!-- What is the capital of Portuguese? --></h2>
+            </div>
+            <div id="quiz-options" class="quiz-options">
+                <ul id="options" class="options">
+                    <!-- 
+                        <li>1. Lisbon</li>
+                        <li>1. London</li>
+                        <li>1. Ankara</li>
+                        <li>1. Paris</li>
+                    -->
+                </ul>
+                <div id="result">
+                </div>
+            </div>
+            <div class="quiz-foot">
+                <button type = "button" id="check-answer" class="check-answer">Check Answer</button>
+                <button id="play-again" class="play-again">Play Again</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
